@@ -11,8 +11,7 @@
     "dev": "tsc -w"
   },
   "dependencies": {
-    "chalk": "^4.1.2",
-    "minimist": "^1.2.5"
+    "chalk": "^4.1.2"
   },
   "keywords": [],
   "author": "",
