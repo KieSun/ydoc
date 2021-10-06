@@ -1,11 +1,9 @@
 {
-  "name": "@ydoc/cli",
+  "name": "@ydoc/core",
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
-  "bin": {
-    "ydoc": "./dist/cli.js"
-  },
+  "typings": "dist/index.d.ts",
   "files": [
     "dist/"
   ],
@@ -14,8 +12,7 @@
   },
   "dependencies": {
     "chalk": "^4.1.2",
-    "minimist": "^1.2.5",
-    "@ydoc/core": "^0.0.1"
+    "minimist": "^1.2.5"
   },
   "keywords": [],
   "author": "",
