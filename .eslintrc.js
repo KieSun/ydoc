@@ -1,16 +1,15 @@
 module.exports = {
-  "root": true,
-  "env": {
-    "node": true
+  root: true,
+  env: {
+    node: true,
   },
-  "extends": [
-    "eslint:recommended"
-  ],
-  "parserOptions": {
-    "ecmaVersion": 2020
+  extends: ['eslint:recommended'],
+  parserOptions: {
+    ecmaVersion: 2020,
+    sourceType: 'module',
   },
-  "rules": {
-    "no-console": "off",
-    "no-debugger": "off"
-  }
+  rules: {
+    'no-console': 'off',
+    'no-debugger': 'off',
+  },
 }
